@@ -1,31 +1,9 @@
-.test{
-    height: 75px;
-    width: 75px;
+.centreditem {
     position: absolute;
-    text-align: right;
-}
-
-.test1 {
-    background-color: blue;
-    z-index: 5;
-}
-.test2{
-    background-color: brown;
-    z-index: 4;
-    left: 32px;
-}
-.test3{
-    background-color: yellow;
-    z-index: 3;
-    left: 48px;
-}
-.test4{
-    background-color: red;
-    z-index: 2;
-    left: 64px;
-}
-.test5{
-    background-color: aqua;
-    left: 80px;
+    width: 32px;
+    height: 32px;
+    top: 50vh;
+    left: calc (50vw-48px);
+    border: 1px solid grey;
 }
 
