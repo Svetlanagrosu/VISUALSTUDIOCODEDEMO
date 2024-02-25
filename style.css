@@ -1,9 +1,47 @@
-.centreditem {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 50vh;
-    left: calc (50vw-48px);
-    border: 1px solid grey;
+:root {
+    --bg-color-primary: gray;
 }
+.spinner{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    
+
+}
+.sector {
+    width: 100%;
+    height: 100%;
+    border: 20px solid transparent;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    animation: rotate 4s linear infinite ;
+    
+}
+.sector1 {
+    border-bottom: 20px solid red;
+
+}
+.sector2 {
+    border-left: 20px solid yellow;
+}
+.sector3 {
+    border-top: 20px solid blue;
+
+}
+.sector4 {
+    border-right: 20px solid violet;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
 
